@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/002/375/040/small/modern-white-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav{
+    background-color: rgb(233, 232, 233);
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+.lista a{
+    text-decoration: none;
+    color: rgb(109, 108, 109);
+    display: block;
+    padding: 15px 50px;
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r {
+    float: right;
+}
+
+.lista a:hover{
+    background-color: rgb(238, 181, 238);
+}
+main{
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    border: 20px;
+
+}
+
+p{
+    font-size: 22px;
+    font-weight: 600px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgb(238, 181, 238);
+}
+
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgb(238, 181, 238) ;
+    color: beige; 
+}
+
+button[type="submit"]{
+    background: rgb(158, 156, 156);
+    color: beige;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: beige;
+}
+
+
+input:focus{
+    outline: none;
+    background-color: rgb(179, 176, 179);
+}
